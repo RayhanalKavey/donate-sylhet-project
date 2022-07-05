@@ -1,6 +1,6 @@
 /* 
 ---------COLORS: 
-button color: #FF5959 
+button color: #FF5959 #f1f3f5 #e9ecef
 donate plan: #4f9da6 #ff5959(10% opacity) #fff4d6
 primary font color: #121212
 paragraph font color: #707070
@@ -11,7 +11,7 @@ font size paragraph:
 ---------LINE HEIGHT:
 Default: 1
 ---------SHADOWS:
----------BORDER-RADIUS:
+---------BORDER-RADIUS: 4px
 
 
  */
@@ -35,22 +35,36 @@ body {
 .header-section {
   width: 100%;
   height: 670px;
-  background-image: url(images/donation13.jpg);
+  /* background-color:#cccc ; */
+  /* background-image: url(images/donation13.jpg); */
+
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.55),
+      rgba(69, 68, 68, 0.45)
+    ),
+    url("images/donation13.jpg");
+
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(151, 226, 201);
 }
 .header {
-  padding: 246px 320px;
-  color: #ffff;
+  padding: 205px 310px;
+  color: #f1f3f5;
 }
 .primary-heading {
   font-size: 52px;
-  margin-bottom: 26px;
+  margin-bottom: 32px;
 }
 .hrader-description {
-  width: 80%;
-  margin-bottom: 26px;
+  width: 70%;
+  margin-bottom: 52px;
 }
 .header-button {
+  background-color: #ff5959;
+  color: #e9ecef;
+  text-decoration: none;
+  padding: 11px 16px;
+  border-radius: 4px;
+  display: inline-block;
 }
