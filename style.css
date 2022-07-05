@@ -6,6 +6,13 @@ primary font color: #121212
 paragraph font color: #707070
 
 ---------FONT: Open Sans
+font size heading:
+font size paragraph:
+---------LINE HEIGHT:
+Default: 1
+---------SHADOWS:
+---------BORDER-RADIUS:
+
 
  */
 /* GENERAL REUSABLE COMPONENTE */
@@ -18,4 +25,30 @@ body {
   line-height: 1;
   font-weight: 400;
 }
+.center-section {
+  margin: 0 auto;
+}
 /* HEADER SECTION */
+.primary-heading {
+  font-size: 52px;
+  text-align: center;
+  color: #ffff;
+}
+.header-section {
+  width: 100%;
+  height: 670px;
+  background-image: url(images/donation4.jpg);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  background-color: rgb(151, 226, 201);
+}
+.header {
+  width: 826px;
+  height: 320px;
+}
+.hrader-description {
+  text-align: center;
+}
+.header-button {
+}
