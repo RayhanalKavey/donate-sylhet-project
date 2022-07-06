@@ -37,13 +37,15 @@ body {
 .center-text {
   text-align: center;
 }
-.donate-button {
+.btn {
   background-color: #ff5959;
-  color: #e9ecef;
-  text-decoration: none;
-  padding: 11px 16px;
-  border-radius: 4px;
   display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #e9ecef;
+}
+.donate-button {
+  padding: 11px 16px;
 }
 .secondary-heading {
   font-size: 44px;
@@ -100,8 +102,6 @@ body {
 /* ================== */
 /* AMOUNT SECTION */
 /* ================== */
-.amount-section {
-}
 .amount {
   width: 55%;
 }
@@ -162,20 +162,11 @@ body {
 .education-cart {
   background-color: rgba(255, 244, 214, 0.4);
 }
-.cart-description {
-}
 
-/* .plan-icon {
-  display: inline-block;
-  width: 32px;
-  height: 32px;
-} */
 /* ================== */
-/* CONTRIBUTION SECTION (Z pattern) */
+/* CONTRIBUTION SECTION */
 /* ================== */
-/* .half-width{
-  width:50%
-} */
+
 .contribution-section {
   width: 100%;
   background-color: #ffe3e3;
@@ -191,7 +182,7 @@ body {
   text-align: center;
 }
 .contri-lives {
-  padding: 16px 32px;
+  padding: 16px 26px;
 }
 .contri-survive {
   padding: 16px 32px;
@@ -205,12 +196,7 @@ body {
   border: 2px solid #ff5959;
 }
 .contri-btn {
-  background-color: #ff5959;
-  color: #e9ecef;
-  text-decoration: none;
   padding: 11px 16px;
-  border-radius: 4px;
-  display: inline-block;
 }
 /* ================== */
 /* UPDATE SECTION */
@@ -227,19 +213,14 @@ body {
 }
 #update-input {
   display: inline-block;
+  width: 250px;
   border-radius: 4px;
   padding-left: 8px;
   border: none;
   background-color: #d0ebff;
 }
 .input-btn {
-  display: inline-block;
-  background-color: #ff5959;
-  color: #e9ecef;
-
-  text-decoration: none;
   padding: 11px 22px;
-  border-radius: 4px;
 }
 /* ================== */
 /* FOOTER SECTION */
