@@ -2,7 +2,9 @@
 ---------COLORS: 
 button color: #FF5959 
 donate plan: #4f9da6 #ff5959(10% opacity) #fff4d6
-update color: #fff4d6
+update color: #ffe3e3
+  color: #ff8787;
+footer:
 primary font color: #121212
 paragraph font color: #707070 #777 #444 #f1f3f5 #e9ecef #ced4da
 
@@ -154,7 +156,7 @@ body {
   background-color: rgba(255, 87, 87, 0.2);
 }
 .education-cart {
-  background-color: rgba(255, 244, 214, 0.2);
+  background-color: rgba(255, 244, 214, 0.4);
 }
 .cart-description {
 }
@@ -175,17 +177,20 @@ body {
   display: flex;
   justify-content: center;
   padding: 64px 0;
-  background-color: #fff4d6;
+  background-color: #ffe3e3;
 }
 #update-input {
   display: inline-block;
   border-radius: 4px;
   padding-left: 8px;
+  border: none;
+  background-color: #d0ebff;
 }
 .input-btn {
   display: inline-block;
   background-color: #ff5959;
   color: #e9ecef;
+
   text-decoration: none;
   padding: 11px 22px;
   border-radius: 4px;
@@ -193,3 +198,13 @@ body {
 /* ================== */
 /* FOOTER SECTION */
 /* ================== */
+.section-footer {
+  background-color: #444;
+  width: 100%;
+  color: #ff8787;
+  padding: 30px 0;
+}
+
+.section-footer .description {
+  color: #e9ecef;
+}
