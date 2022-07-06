@@ -3,15 +3,15 @@
 button color: #FF5959 #f1f3f5 #e9ecef
 donate plan: #4f9da6 #ff5959(10% opacity) #fff4d6
 primary font color: #121212
-paragraph font color: #707070
+paragraph font color: #707070 #777 #444
 
 ---------FONT: Open Sans
 font size heading:
 font size paragraph:
 ---------LINE HEIGHT:
-Default: 1
+Default: 1, 1.2, 1.8
 ---------SHADOWS:
----------BORDER-RADIUS: 4px
+---------BORDER-RADIUS: 4px 8px
  */
 
 /* =========================== */
@@ -25,6 +25,8 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1;
   font-weight: 400;
+  font-size: 16px;
+  color: #444;
 }
 .center {
   margin: 0 auto;
@@ -32,9 +34,25 @@ body {
 .center-text {
   text-align: center;
 }
+.donate-button {
+  background-color: #ff5959;
+  color: #e9ecef;
+  text-decoration: none;
+  padding: 11px 16px;
+  border-radius: 4px;
+  display: inline-block;
+}
 .secondary-heading {
+  font-size: 44px;
+  margin-bottom: 24px;
 }
 .description {
+  line-height: 1.5;
+  margin-bottom: 32px;
+  color: #777;
+}
+.section-gap {
+  margin-bottom: 96px;
 }
 
 /* ====================== */
@@ -63,18 +81,13 @@ body {
 .primary-heading {
   font-size: 52px;
   margin-bottom: 32px;
+  letter-spacing: -1px;
+  line-height: 1.2;
 }
 .hrader-description {
   width: 70%;
   margin-bottom: 52px;
-}
-.header-button {
-  background-color: #ff5959;
-  color: #e9ecef;
-  text-decoration: none;
-  padding: 11px 16px;
-  border-radius: 4px;
-  display: inline-block;
+  line-height: 1.8;
 }
 
 /* ================== */
@@ -82,7 +95,22 @@ body {
 /* ================== */
 .amount-section {
 }
+.amount {
+  width: 50%;
+}
 .amount-btn-box {
+  margin-bottom: 48px;
 }
 .amount-btn {
+  font-size: 24px;
+  background-color: #e9ecef;
+  color: #555;
+  text-decoration: none;
+  padding: 32px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-right: 8px;
+}
+.amount .description {
+  margin-bottom: 48px;
 }
