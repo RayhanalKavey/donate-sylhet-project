@@ -125,8 +125,10 @@ body {
   margin-bottom: 48px;
 }
 .other-amount {
-  margin-bottom: 12px;
   color: #ced4da;
+  border: none;
+  text-align: center;
+  margin-bottom: 12px;
 }
 .amount .donate-button {
   margin-top: 24px;
