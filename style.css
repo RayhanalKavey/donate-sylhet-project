@@ -178,13 +178,23 @@ body {
 } */
 .contribution-section {
   width: 100%;
+  background-color: #ffe3e3;
 }
 .contribution {
   width: 90%;
-  background-color: #ff8787;
 }
 .contribution-img {
   display: flex;
+}
+.contribution-description {
+  display: flex;
+  text-align: center;
+}
+.contri-lives {
+  padding: 16px 32px;
+}
+.contri-survive {
+  padding: 16px 32px;
 }
 .cont-img {
   display: inline-block;
@@ -193,6 +203,14 @@ body {
 
   border-radius: 8px;
   border: 2px solid #ff5959;
+}
+.contri-btn {
+  background-color: #ff5959;
+  color: #e9ecef;
+  text-decoration: none;
+  padding: 11px 16px;
+  border-radius: 4px;
+  display: inline-block;
 }
 /* ================== */
 /* UPDATE SECTION */
