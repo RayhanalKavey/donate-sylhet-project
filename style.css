@@ -96,7 +96,7 @@ body {
 .amount-section {
 }
 .amount {
-  width: 52%;
+  width: 55%;
 }
 .amount-btn-box {
   margin-bottom: 48px;
@@ -120,4 +120,29 @@ body {
 }
 .amount .donate-button {
   margin-top: 24px;
+}
+
+/* ================== */
+/* PLAN SECTION */
+/* ================== */
+.plan-section {
+  width: 90%;
+}
+.plan {
+}
+.plan-desciption {
+}
+.plan-cart {
+}
+.cart {
+}
+.food-cart {
+}
+.shelter-cart {
+}
+.education-cart {
+}
+.cart-description {
+}
+.tertiary-heading {
 }
