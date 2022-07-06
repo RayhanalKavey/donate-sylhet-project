@@ -2,6 +2,7 @@
 ---------COLORS: 
 button color: #FF5959 
 donate plan: #4f9da6 #ff5959(10% opacity) #fff4d6
+update color: #fff4d6
 primary font color: #121212
 paragraph font color: #707070 #777 #444 #f1f3f5 #e9ecef #ced4da
 
@@ -158,8 +159,37 @@ body {
 .cart-description {
 }
 
-.plan-icon {
+/* .plan-icon {
   display: inline-block;
   width: 32px;
   height: 32px;
+} */
+/* ================== */
+/* UPDATE SECTION */
+/* ================== */
+
+.update {
+  width: 45%;
 }
+.input-area {
+  display: flex;
+  justify-content: center;
+  padding: 64px 0;
+  background-color: #fff4d6;
+}
+#update-input {
+  display: inline-block;
+  border-radius: 4px;
+  padding-left: 8px;
+}
+.input-btn {
+  display: inline-block;
+  background-color: #ff5959;
+  color: #e9ecef;
+  text-decoration: none;
+  padding: 11px 22px;
+  border-radius: 4px;
+}
+/* ================== */
+/* FOOTER SECTION */
+/* ================== */
