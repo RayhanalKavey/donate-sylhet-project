@@ -46,6 +46,10 @@ body {
   font-size: 44px;
   margin-bottom: 24px;
 }
+.tertiary-heading {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
 .description {
   line-height: 1.5;
   margin-bottom: 32px;
@@ -84,7 +88,7 @@ body {
   letter-spacing: -1px;
   line-height: 1.2;
 }
-.hrader-description {
+.header-description {
   width: 70%;
   margin-bottom: 52px;
   line-height: 1.8;
@@ -131,18 +135,33 @@ body {
 .plan {
 }
 .plan-desciption {
+  width: 60%;
 }
 .plan-cart {
+  width: 80%;
+  display: flex;
+  text-align: left;
 }
 .cart {
+  padding: 70px 16px;
+  width: 100%;
+  margin-right: 12px;
 }
+
 .food-cart {
+  background-color: rgba(79, 157, 166, 0.2);
 }
 .shelter-cart {
+  background-color: rgba(255, 87, 87, 0.2);
 }
 .education-cart {
+  background-color: rgba(255, 244, 214, 0.2);
 }
 .cart-description {
 }
-.tertiary-heading {
+
+.plan-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
 }
