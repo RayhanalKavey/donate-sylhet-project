@@ -128,7 +128,11 @@ body {
 .amount .donate-button {
   margin-top: 24px;
 }
-
+.click-button {
+  border: 2px solid #ff5959;
+  background-color: #ffe3e3;
+  color: #ff5959;
+}
 /* ================== */
 /* PLAN SECTION */
 /* ================== */
@@ -166,6 +170,30 @@ body {
   width: 32px;
   height: 32px;
 } */
+/* ================== */
+/* CONTRIBUTION SECTION (Z pattern) */
+/* ================== */
+/* .half-width{
+  width:50%
+} */
+.contribution-section {
+  width: 100%;
+}
+.contribution {
+  width: 90%;
+  background-color: #ff8787;
+}
+.contribution-img {
+  display: flex;
+}
+.cont-img {
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+
+  border-radius: 8px;
+  border: 2px solid #ff5959;
+}
 /* ================== */
 /* UPDATE SECTION */
 /* ================== */
